@@ -116,7 +116,7 @@ function lowestprice($url)	{
          $p = $pro['product'][$a]['stores'][$j]['price'];
          if($web > $p)	{
              $low= $p;
-             $web = $pro['product'][$a]['stores'][$j]['price'];
+             $web = $pro['product'][$a]['stores'][$j]['website'];
 
          }
      }
